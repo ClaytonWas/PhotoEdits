@@ -19,25 +19,11 @@ This may require some time open to reawaken the render instance as we are using 
 ### Installation
  WIP
 
-### Images
-Overview.
-![Overview](./public/images/Example4.jpg)
+### Interface
+WIP
 
-Image imports working with front end users local storage.
-![File Imports](./public/images/fileImportsOnUI.png)
-
-Front end visualization of image.
-![Image Import](./public/images/RosesOnImport.jpg)
-
-Taskbar interaction that manipulates the image mapped to the canvas.
-![Greyscaling](./public/images/RosesGreyscaleOnTaskbar.jpg)
-
-#### Resulting Examples
-![Gif2](./public/images/gif2.gif)
-
-![Gif1](./public/images/vectors.gif)
-
-![TheMajesticIbis](./public/images/IbisPaintedEdges.jpeg)
+#### Examples
+WIP
 
 
 ### TODO:
