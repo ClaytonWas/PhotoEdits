@@ -1,50 +1,44 @@
-# React + TypeScript + Vite
+# Photoedits
+Photo manipulation software using JavaScript inspired by applications like Photoshop and Photopea.
+Provding filter and image transformations. <br >
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Current Stage
+A webapp that serves a photo manipulation user interface to a front-end user using next.js. 
 
-Currently, two official plugins are available:
+This code is built on a programatic ImageEditor class instance, that handles front end interaction and performs image manipulations with context provided by an imagefile and HTML canvas. If no canvas is provided, it creates one internally. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Currently in development.
 
-## Expanding the ESLint configuration
+### Showcase
+[Version 0.2 Showcase](https://youtu.be/yxHyBOE9t0Q) This is not meant to be a comprehensive overview. <br >
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Deployed Website
+[On Render](https://webappphotoedits.onrender.com/) <br >
+This may require some time open to reawaken the render instance as we are using the free tier.
 
-- Configure the top-level `parserOptions` property like this:
+### Installation
+ WIP
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Images
+Overview.
+![Overview](./public/images/Example4.jpg)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Image imports working with front end users local storage.
+![File Imports](./public/images/fileImportsOnUI.png)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Front end visualization of image.
+![Image Import](./public/images/RosesOnImport.jpg)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Taskbar interaction that manipulates the image mapped to the canvas.
+![Greyscaling](./public/images/RosesGreyscaleOnTaskbar.jpg)
+
+#### Resulting Examples
+![Gif2](./public/images/gif2.gif)
+
+![Gif1](./public/images/vectors.gif)
+
+![TheMajesticIbis](./public/images/IbisPaintedEdges.jpeg)
+
+
+### TODO:
+Port to framework.
